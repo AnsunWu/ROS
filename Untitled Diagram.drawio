@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-26T23:21:16.618Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="M67CUNrzRmrUSTByVMIA" version="13.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-26T23:23:19.965Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="0gjAa_fFC1tRz6iJ70H-" version="13.6.5" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
     <mxGraphModel dx="400" dy="448" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -19,7 +19,7 @@
           <mxGeometry y="82" width="150" height="26" as="geometry" />
         </mxCell>
         <mxCell id="o36uRRZI3loZWV72tVVz-1" value="hardware_bringup.launch&#xa;加载硬件模型" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="40" y="160" width="250" height="160" as="geometry">
+          <mxGeometry x="40" y="160" width="250" height="220" as="geometry">
             <mxRectangle x="510" y="200" width="90" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -32,8 +32,8 @@
         <mxCell id="o36uRRZI3loZWV72tVVz-8" value="&#xa;上边为launch文件变量设定&#xa;下边为加载机器人的URDF模型，SRDF描述和.yaml描述" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=8;" vertex="1" parent="o36uRRZI3loZWV72tVVz-1">
           <mxGeometry y="82" width="250" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="o36uRRZI3loZWV72tVVz-13" value="1. 首先加载机器人模型：&#xa;   &lt;加载prbt_gazebo.launch&gt;文件，将机器人加载在Gazebo环境内；&#xa;1.1 若程序要与真实机器人通信的话，需要运行prbt_real.launch文件&#xa;      并将IP地址传入" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=8;" vertex="1" parent="o36uRRZI3loZWV72tVVz-1">
-          <mxGeometry y="114" width="250" height="46" as="geometry" />
+        <mxCell id="o36uRRZI3loZWV72tVVz-13" value="1. 首先加载机器人模型：&#xa;   &lt;加载prbt_gazebo.launch&gt;文件，将机器人加载在Gazebo环境内；&#xa;1.1 若程序要与真实机器人通信的话，需要运行prbt_real.launch文件&#xa;      并将IP地址传入；&#xa;2. 加载&lt;joint_names.yaml&gt;文件： 实际上就是给各个坐标轴命名&#xa;    joint 1~joint 6; 以便于编程控制各轴。 &#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=8;" vertex="1" parent="o36uRRZI3loZWV72tVVz-1">
+          <mxGeometry y="114" width="250" height="106" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
