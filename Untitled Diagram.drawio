@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-08-26T19:04:20.364Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="gl8Ng-IDiswpUugvRnZO" version="13.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-26T19:09:54.717Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="Dqdezhcs1BrTOwdkBK7V" version="13.6.5" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
-    <mxGraphModel dx="483" dy="564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="263" dy="448" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -18,8 +18,8 @@
         <mxCell id="KAkbny95yHru2cI5Tnwd-5" value="3.启动rviz.launch文件&#xa;-启动rivz显示界面" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=8;" vertex="1" parent="KAkbny95yHru2cI5Tnwd-2">
           <mxGeometry y="82" width="150" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="KAkbny95yHru2cI5Tnwd-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
-          <mxGeometry x="500" y="210" width="120" height="60" as="geometry" />
+        <mxCell id="KAkbny95yHru2cI5Tnwd-7" value="&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center ; text-decoration: underline ; font-size: 11px&quot;&gt;&lt;b style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 8px&quot;&gt;h&lt;/font&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;ardware_bringup.launch&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center ; text-decoration: underline ; font-size: 11px&quot;&gt;&lt;b style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;加载硬件模型&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;1. 首先设定机器人名称代号为prbt&lt;/font&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="150" width="160" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
