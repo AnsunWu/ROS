@@ -1,25 +1,54 @@
-<mxfile host="app.diagrams.net" modified="2020-08-26T19:09:54.717Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="Dqdezhcs1BrTOwdkBK7V" version="13.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-26T23:14:47.722Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="NOJ0zB-aZkq-Xp7hL5di" version="13.6.5" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
     <mxGraphModel dx="263" dy="448" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="KAkbny95yHru2cI5Tnwd-2" value="主启动Launch文件&#xa;snp_prbt_bringup.launch" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=9;" vertex="1" parent="1">
+        <mxCell id="KAkbny95yHru2cI5Tnwd-2" value="主启动Launch文件&#xa;snp_prbt_bringup.launch" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=9;" parent="1" vertex="1">
           <mxGeometry x="475" y="30" width="150" height="108" as="geometry">
             <mxRectangle x="510" y="200" width="90" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KAkbny95yHru2cI5Tnwd-3" value="1.启动：hardware_bringup. launch&#xa;- 并传入arg sim_robot=sim_robot" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=8;" vertex="1" parent="KAkbny95yHru2cI5Tnwd-2">
+        <mxCell id="KAkbny95yHru2cI5Tnwd-3" value="1.启动：hardware_bringup. launch&#xa;- 并传入arg sim_robot=sim_robot" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=8;" parent="KAkbny95yHru2cI5Tnwd-2" vertex="1">
           <mxGeometry y="30" width="150" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="KAkbny95yHru2cI5Tnwd-4" value="2.启动prbt_godel.launch文件&#xa;- 并传入arg sim_robot=sim_robot" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=8;" vertex="1" parent="KAkbny95yHru2cI5Tnwd-2">
+        <mxCell id="KAkbny95yHru2cI5Tnwd-4" value="2.启动prbt_godel.launch文件&#xa;- 并传入arg sim_robot=sim_robot" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=8;" parent="KAkbny95yHru2cI5Tnwd-2" vertex="1">
           <mxGeometry y="56" width="150" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="KAkbny95yHru2cI5Tnwd-5" value="3.启动rviz.launch文件&#xa;-启动rivz显示界面" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=8;" vertex="1" parent="KAkbny95yHru2cI5Tnwd-2">
+        <mxCell id="KAkbny95yHru2cI5Tnwd-5" value="3.启动rviz.launch文件&#xa;-启动rivz显示界面" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=8;" parent="KAkbny95yHru2cI5Tnwd-2" vertex="1">
           <mxGeometry y="82" width="150" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="KAkbny95yHru2cI5Tnwd-7" value="&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center ; text-decoration: underline ; font-size: 11px&quot;&gt;&lt;b style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 8px&quot;&gt;h&lt;/font&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;ardware_bringup.launch&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center ; text-decoration: underline ; font-size: 11px&quot;&gt;&lt;b style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;加载硬件模型&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;1. 首先设定机器人名称代号为prbt&lt;/font&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="150" width="160" height="90" as="geometry" />
+        <mxCell id="o36uRRZI3loZWV72tVVz-1" value="hardware_bringup.launch&#xa;加载硬件模型" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="40" y="160" width="150" height="142" as="geometry">
+            <mxRectangle x="510" y="200" width="90" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o36uRRZI3loZWV72tVVz-2" value="1.设定机器人代号为prbt&#xa;arg name=&quot;robot_name&quot; default=&quot;prbt&quot;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=8;" vertex="1" parent="o36uRRZI3loZWV72tVVz-1">
+          <mxGeometry y="30" width="150" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="o36uRRZI3loZWV72tVVz-7" value="2. 将urdf_file文件路径关联,以便加载&#xa;arg_name=&quot;urdf_file&quot; default=&quot;xx.urdf&quot;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=8;" vertex="1" parent="o36uRRZI3loZWV72tVVz-1">
+          <mxGeometry y="56" width="150" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="o36uRRZI3loZWV72tVVz-9" value="" style="endArrow=none;html=1;" edge="1" parent="o36uRRZI3loZWV72tVVz-1" target="o36uRRZI3loZWV72tVVz-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="90" as="sourcePoint" />
+            <mxPoint x="50" y="40" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="150" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o36uRRZI3loZWV72tVVz-8" value="&#xa;上边为launch文件变量设定" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=8;" vertex="1" parent="o36uRRZI3loZWV72tVVz-1">
+          <mxGeometry y="82" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o36uRRZI3loZWV72tVVz-13" value="1.加载urdf,srdf,.yaml文件" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=8;" vertex="1" parent="o36uRRZI3loZWV72tVVz-1">
+          <mxGeometry y="112" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o36uRRZI3loZWV72tVVz-14" value="" style="endArrow=none;html=1;fontSize=7;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="272" as="sourcePoint" />
+            <mxPoint x="195" y="272" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
